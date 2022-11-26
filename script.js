@@ -3,7 +3,7 @@ document.querySelector('#img').style.display='block';
   let ip = document.querySelector("input").value;
   // Fetching Api
   
-  fetch(`http://ip-api.com/json/${ip}`)
+  fetch(`http://ip-api.com/json/${ip}`,{mode:'no-cors'})
   .then((response) => {
       return response.json();  
   })
