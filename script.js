@@ -18,7 +18,9 @@ document.querySelector('#img').style.display='block';
       const {city} = data;
       const {isp} = data;
       const {org} = data;
+      if(message != undefined){
       alert(message);
+      }
        document.querySelector("#status").innerHTML=status;
 document.querySelector("#country").innerHTML=country;       
 document.querySelector("#state").innerHTML=regionName;  
