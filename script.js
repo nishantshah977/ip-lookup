@@ -1,3 +1,4 @@
+alert('Please Try on Your Local Machine 🤧');
 function start(){
 document.querySelector('#img').style.display='block';
   let ip = document.querySelector("input").value;
